@@ -1,18 +1,24 @@
 console.log("Hello World!")
-console.log(5+5)
-console.log(5*8)
-console.log("Hello World!")
-console.log(5+5)
-console.log(5*8)
-console.log("Hello World!")
-console.log(5+5)
-console.log(5*8)
-console.log("Hello World!")
-console.log(5+5)
-console.log(5*8)
-console.log("Hello World!")
-console.log(5+5)
-console.log(5*8)
-console.log("Hello World!")
-console.log(5+5)
-console.log(5*8)
+
+let word = "JavaScript"
+
+word[0] = "Y"
+console.log(word)
+
+let numOne = 3
+let numTwo = 3
+
+console.log(numOne==numTwo)
+
+let js = "JavaScript"
+let py = "Python"
+
+console.log(js==py)
+
+let lightOn = true
+let lightOff = false
+
+console.log(lightOn==lightOff)
+
+
+
