@@ -220,15 +220,50 @@
 
 
 
-function dogrula(){
+// function dogrula(){
     
-    var form = document.forms["form1"];
-    var deger = form["isim"].value;
+//     var form = document.forms["form1"];
+//     var deger = form["isim"].value;
 
-    if (deger == ""){
-        alert("İsim alanı boş bırakılamaz.");
-        return false;
-    }
+//     if (deger == ""){
+//         alert("İsim alanı boş bırakılamaz.");
+//         return false;
+//     }
 
-    return true;
-}
+//     return true;
+// }
+
+let adSoyad = "Samet YILDIRIM"
+
+let bastanSona = adSoyad.slice(6,10);
+console.log(bastanSona)
+
+//5'ten başlayıp 4 adım gider.
+let bastanSonaSubstr = adSoyad.substr(6,4);
+console.log(bastanSonaSubstr)
+
+let yerDegistir = adSoyad.replace("RIM", "M")
+console.log(yerDegistir)
+
+//Daire Alan
+
+let yaricap = 15;
+const pi = Math.PI
+
+let daireAlan = pi*yaricap**2
+console.log(daireAlan)
+
+//Math
+
+console.log(16/4) //bölme
+console.log(16%3) //bölümünden kalan
+
+let sonuc = 6 * (15-4)**2;
+console.log(sonuc)
+
+let sayi = 13;
+sayi += 1
+sayi++;
+console.log(sayi)
+
+
