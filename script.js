@@ -221,7 +221,7 @@
 
 
 // function dogrula(){
-    
+
 //     var form = document.forms["form1"];
 //     var deger = form["isim"].value;
 
@@ -233,37 +233,141 @@
 //     return true;
 // }
 
-let adSoyad = "Samet YILDIRIM"
+//let adSoyad = "Samet YILDIRIM"
 
-let bastanSona = adSoyad.slice(6,10);
-console.log(bastanSona)
+// let bastanSona = adSoyad.slice(6,10);
+// console.log(bastanSona)
 
 //5'ten başlayıp 4 adım gider.
-let bastanSonaSubstr = adSoyad.substr(6,4);
-console.log(bastanSonaSubstr)
+// let bastanSonaSubstr = adSoyad.substr(6,4);
+// console.log(bastanSonaSubstr)
 
-let yerDegistir = adSoyad.replace("RIM", "M")
-console.log(yerDegistir)
+// let yerDegistir = adSoyad.replace("RIM", "M")
+// console.log(yerDegistir)
 
 //Daire Alan
 
-let yaricap = 15;
-const pi = Math.PI
+// let yaricap = 15;
+// const pi = Math.PI
 
-let daireAlan = pi*yaricap**2
-console.log(daireAlan)
+// let daireAlan = pi*yaricap**2
+// console.log(daireAlan)
 
-//Math
+// //Math
 
-console.log(16/4) //bölme
-console.log(16%3) //bölümünden kalan
+// console.log(16/4) //bölme
+// console.log(16%3) //bölümünden kalan
 
-let sonuc = 6 * (15-4)**2;
-console.log(sonuc)
+// let sonuc = 6 * (15-4)**2;
+// console.log(sonuc)
 
-let sayi = 13;
-sayi += 1
-sayi++;
-console.log(sayi)
+// let sayi = 13;
+// sayi += 1
+// sayi++;
+// console.log(sayi)
+
+// //
+
+// let isimler = ["Ali", "Ahmet", "Tuçe"]
+
+// console.log(isimler.join(", "))
+
+// console.log(isimler.indexOf("Tuçe"))
+// let elemanekle = isimler.push("Leyla")
+
+// console.log(isimler)
+
+// let pop = isimler.pop()
+// console.log(isimler)
+// console.log(pop) //diğer listeden alır ve istersek bir değişkene atabiliriz.
+
+// // Null ve Undifined
+
+// let yass;
+
+// console.log(yass, yass+5, `Yaş: ${yass}`)
+
+// //
+
+// let yas = null;
+
+// console.log(yas, yas+5, `Yaş: ${yas}`)
+
+// //
+
+// //True - False
+
+// let email = "smtyldrm32@gmail.com";
+// console.log(email.includes("@"));
+// console.log(email.includes("sam"));
+
+// let adSoyad = ["Samet", "Baki", "Kazım", "Leyla"]
+// console.log(adSoyad.includes("Samet"))
+
+
+// yasim = "25"
+// console.log(yasim+1)
+// console.log(typeof yasim)
+
+// yasim = Number(yasim)
+// console.log(yasim+1)
+// console.log(typeof yasim)
+
+
+// console.log(Boolean(0)) //false
+// console.log(Boolean("0")) //true
+// console.log(Boolean("samet")) //true
+// console.log(Boolean()) //false
+
+//for
+
+// for(let i=0; i<10; i++)
+// {
+//     console.log(i)
+// }
+
+// console.log("Döngü bitti.")
+
+const adSoyad = ["samet", "baki", "kazım"]
+
+// for (let i = 0; i < adSoyad.length; i++) {
+//     let html = `<div>${adSoyad[i]}</div>`
+//     console.log(html)
+// }
+
+//while
+
+// let i = 0
+
+// while (i < 10) {
+//     console.log(i)
+//     i++;
+// }
+
+// while (i < adSoyad.length) {
+//     console.log(adSoyad[i])
+//     i++;
+
+// }
+
+// i=6;
+
+// while (i>3){
+//     console.log(i)
+//     i--;
+// }
+
+// Do While
+
+//do'nun içindeki komutu kesin çalıştırır,
+//ifade doğru ise do'nun içine tekrar girer.
+
+let i = 3;
+
+do{
+    console.log(i);
+    i++;
+} while(i<5);
+
 
 
